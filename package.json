@@ -1,0 +1,20 @@
+{
+  "name": "weekend_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teigenleonard/Weekend_Challenge_3.git"
+  },
+  "author": "Teigen Leonard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teigenleonard/Weekend_Challenge_3/issues"
+  },
+  "homepage": "https://github.com/teigenleonard/Weekend_Challenge_3#readme"
+}

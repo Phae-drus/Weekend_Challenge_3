@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>OMG! WC3!</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="views/style.css">
     <script type="text/javascript" src= 'vendors/jquery.js'></script>
     <script type="text/javascript" src= 'scripts/client.js'></script>
   </head>
   <body>
+    <span>
     <h1>TODO for YOU</h1>
-    <form>
-      <input type="text" placeholder="Add Task"name="task" id= 'addTask'>
-      <input type="submit" value="submit">
+    </span>
+    <form id= 'taskInput'>
+      <input type="text" placeholder="What needs doing?"name="task" id= 'enterTask'>
+      <button id= 'addTask'>Add Task</button>
     </form>
     <h3> TASKS </h3>
-    <table class= 'todo'>
+    <table class= 'tasks'>
     </table>
     <br>
     <h3> COMPLETED </h3>

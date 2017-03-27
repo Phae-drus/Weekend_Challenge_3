@@ -9,7 +9,7 @@ var tasks = require( './routes/tasks.js' );
 
 
 //uses
-app.use( express.static( 'server/public/views' ));
+app.use( express.static( 'server/public' ));
 app.use( bodyParser.urlencoded( { extended: true }));
 
 app.use( '/tasks', tasks );
